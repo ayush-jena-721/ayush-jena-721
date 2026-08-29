@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 474" width="1280" height="474"
+     role="img" aria-label="Armor modules">
+  <defs>
+    <linearGradient id="hullGrad" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="55%" stop-color="#05070A"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161B24"/>
+      <stop offset="42%" stop-color="#2A323F"/>
+      <stop offset="52%" stop-color="#3A4757"/>
+      <stop offset="62%" stop-color="#2A323F"/>
+      <stop offset="100%" stop-color="#161B24"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8F1D18"/>
+      <stop offset="60%" stop-color="#E03C31"/>
+      <stop offset="100%" stop-color="#FF9F45"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8B54B"/>
+      <stop offset="50%" stop-color="#FFD98A"/>
+      <stop offset="100%" stop-color="#E8B54B"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="24%" stop-color="#5BE0F0" stop-opacity="0.75"/>
+      <stop offset="58%" stop-color="#5BE0F0" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fieldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5BE0F0" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#8C7BFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5BE0F0" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="54%" stop-color="#5BE0F0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="blueprint" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#3A4757" stroke-width="1" opacity="0.22"/>
+      <path d="M12 0V48M24 0V48M36 0V48M0 12H48M0 24H48M0 36H48" fill="none"
+            stroke="#3A4757" stroke-width="0.5" opacity="0.09"/>
+    </pattern>
+    <filter id="bloom" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="bloomS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="bloomXS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+<clipPath id="frame"><rect width="1280" height="474" rx="18"/></clipPath></defs>
+  <g clip-path="url(#frame)" font-family="'Share Tech Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <rect width="1280" height="474" fill="url(#hullGrad)"/>
+    <rect width="1280" height="474" fill="url(#blueprint)"/>
+    <text x="30" y="38" fill="#E8B54B" font-size="12" letter-spacing="4.5">ARMOR MODULES // TECHNOLOGY LOADOUT</text>
+    <text x="1250" y="38" fill="#7C8CA0" font-size="10" letter-spacing="2.4" text-anchor="end">SEQUENTIAL POWER-ON</text>
+    <path d="M30 54H1250" stroke="#3A4757"/>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.30s" fill="freeze"/>
+        <rect x="40" y="84" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M40 92v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M328 154v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="60" y="112" fill="#E6ECF3" font-size="11.5" letter-spacing="2">PYTHON CORE</text>
+        <circle cx="242" cy="108" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.20s" begin="0.70s" repeatCount="indefinite"/>
+        </circle>
+        <text x="308" y="112" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="60" y="130" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="60" y="130" width="228" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;228" dur="0.7s" begin="0.40s" fill="freeze"/>
+        </rect>
+        <rect x="60" y="130" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="5.0s" begin="1.50s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="60;262" dur="5.0s" begin="1.50s" repeatCount="indefinite"/>
+        </rect>
+        <text x="308" y="150" fill="#4A5768" font-size="9" text-anchor="end">92%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.44s" fill="freeze"/>
+        <rect x="344" y="84" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M344 92v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M632 154v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="364" y="112" fill="#E6ECF3" font-size="11.5" letter-spacing="2">AI / ML</text>
+        <circle cx="546" cy="108" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.33s" begin="0.84s" repeatCount="indefinite"/>
+        </circle>
+        <text x="612" y="112" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="364" y="130" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="364" y="130" width="184" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;184" dur="0.7s" begin="0.54s" fill="freeze"/>
+        </rect>
+        <rect x="364" y="130" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="5.2s" begin="1.64s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="364;522" dur="5.2s" begin="1.64s" repeatCount="indefinite"/>
+        </rect>
+        <text x="612" y="150" fill="#4A5768" font-size="9" text-anchor="end">74%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.58s" fill="freeze"/>
+        <rect x="648" y="84" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M648 92v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M936 154v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="668" y="112" fill="#E6ECF3" font-size="11.5" letter-spacing="2">COMPUTER VISION</text>
+        <circle cx="850" cy="108" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.46s" begin="0.98s" repeatCount="indefinite"/>
+        </circle>
+        <text x="916" y="112" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="668" y="130" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="668" y="130" width="174" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;174" dur="0.7s" begin="0.68s" fill="freeze"/>
+        </rect>
+        <rect x="668" y="130" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="5.4s" begin="1.78s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="668;816" dur="5.4s" begin="1.78s" repeatCount="indefinite"/>
+        </rect>
+        <text x="916" y="150" fill="#4A5768" font-size="9" text-anchor="end">70%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.72s" fill="freeze"/>
+        <rect x="952" y="84" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M952 92v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M1240 154v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="972" y="112" fill="#E6ECF3" font-size="11.5" letter-spacing="2">DEEP LEARNING</text>
+        <circle cx="1154" cy="108" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.59s" begin="1.12s" repeatCount="indefinite"/>
+        </circle>
+        <text x="1220" y="112" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="972" y="130" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="972" y="130" width="139" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;139" dur="0.7s" begin="0.82s" fill="freeze"/>
+        </rect>
+        <rect x="972" y="130" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="5.6s" begin="1.92s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="972;1085" dur="5.6s" begin="1.92s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1220" y="150" fill="#4A5768" font-size="9" text-anchor="end">56%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.86s" fill="freeze"/>
+        <rect x="40" y="176" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M40 184v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M328 246v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="60" y="204" fill="#E6ECF3" font-size="11.5" letter-spacing="2">FLASK</text>
+        <circle cx="242" cy="200" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.72s" begin="1.26s" repeatCount="indefinite"/>
+        </circle>
+        <text x="308" y="204" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="60" y="222" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="60" y="222" width="164" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;164" dur="0.7s" begin="0.96s" fill="freeze"/>
+        </rect>
+        <rect x="60" y="222" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="5.8s" begin="2.06s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="60;198" dur="5.8s" begin="2.06s" repeatCount="indefinite"/>
+        </rect>
+        <text x="308" y="242" fill="#4A5768" font-size="9" text-anchor="end">66%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.00s" fill="freeze"/>
+        <rect x="344" y="176" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M344 184v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M632 246v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="364" y="204" fill="#E6ECF3" font-size="11.5" letter-spacing="2">VUE</text>
+        <circle cx="546" cy="200" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.85s" begin="1.40s" repeatCount="indefinite"/>
+        </circle>
+        <text x="612" y="204" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="364" y="222" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="364" y="222" width="144" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;144" dur="0.7s" begin="1.10s" fill="freeze"/>
+        </rect>
+        <rect x="364" y="222" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="6.0s" begin="2.20s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="364;482" dur="6.0s" begin="2.20s" repeatCount="indefinite"/>
+        </rect>
+        <text x="612" y="242" fill="#4A5768" font-size="9" text-anchor="end">58%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.14s" fill="freeze"/>
+        <rect x="648" y="176" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M648 184v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M936 246v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="668" y="204" fill="#E6ECF3" font-size="11.5" letter-spacing="2">SQLITE</text>
+        <circle cx="850" cy="200" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="2.98s" begin="1.54s" repeatCount="indefinite"/>
+        </circle>
+        <text x="916" y="204" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="668" y="222" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="668" y="222" width="169" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;169" dur="0.7s" begin="1.24s" fill="freeze"/>
+        </rect>
+        <rect x="668" y="222" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="6.2s" begin="2.34s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="668;811" dur="6.2s" begin="2.34s" repeatCount="indefinite"/>
+        </rect>
+        <text x="916" y="242" fill="#4A5768" font-size="9" text-anchor="end">68%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.28s" fill="freeze"/>
+        <rect x="952" y="176" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M952 184v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M1240 246v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="972" y="204" fill="#E6ECF3" font-size="11.5" letter-spacing="2">OPENCV</text>
+        <circle cx="1154" cy="200" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.11s" begin="1.68s" repeatCount="indefinite"/>
+        </circle>
+        <text x="1220" y="204" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="972" y="222" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="972" y="222" width="179" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;179" dur="0.7s" begin="1.38s" fill="freeze"/>
+        </rect>
+        <rect x="972" y="222" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="6.4s" begin="2.48s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="972;1125" dur="6.4s" begin="2.48s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1220" y="242" fill="#4A5768" font-size="9" text-anchor="end">72%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.42s" fill="freeze"/>
+        <rect x="40" y="268" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M40 276v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M328 338v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="60" y="296" fill="#E6ECF3" font-size="11.5" letter-spacing="2">ESP32</text>
+        <circle cx="242" cy="292" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.24s" begin="1.82s" repeatCount="indefinite"/>
+        </circle>
+        <text x="308" y="296" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="60" y="314" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="60" y="314" width="188" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;188" dur="0.7s" begin="1.52s" fill="freeze"/>
+        </rect>
+        <rect x="60" y="314" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="6.6s" begin="2.62s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="60;222" dur="6.6s" begin="2.62s" repeatCount="indefinite"/>
+        </rect>
+        <text x="308" y="334" fill="#4A5768" font-size="9" text-anchor="end">76%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.56s" fill="freeze"/>
+        <rect x="344" y="268" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M344 276v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M632 338v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="364" y="296" fill="#E6ECF3" font-size="11.5" letter-spacing="2">RASPBERRY PI</text>
+        <circle cx="546" cy="292" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.37s" begin="1.96s" repeatCount="indefinite"/>
+        </circle>
+        <text x="612" y="296" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="364" y="314" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="364" y="314" width="154" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;154" dur="0.7s" begin="1.66s" fill="freeze"/>
+        </rect>
+        <rect x="364" y="314" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="6.8s" begin="2.76s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="364;492" dur="6.8s" begin="2.76s" repeatCount="indefinite"/>
+        </rect>
+        <text x="612" y="334" fill="#4A5768" font-size="9" text-anchor="end">62%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.70s" fill="freeze"/>
+        <rect x="648" y="268" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M648 276v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M936 338v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="668" y="296" fill="#E6ECF3" font-size="11.5" letter-spacing="2">IOT</text>
+        <circle cx="850" cy="292" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.50s" begin="2.10s" repeatCount="indefinite"/>
+        </circle>
+        <text x="916" y="296" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="668" y="314" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="668" y="314" width="174" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;174" dur="0.7s" begin="1.80s" fill="freeze"/>
+        </rect>
+        <rect x="668" y="314" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="7.0s" begin="2.90s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="668;816" dur="7.0s" begin="2.90s" repeatCount="indefinite"/>
+        </rect>
+        <text x="916" y="334" fill="#4A5768" font-size="9" text-anchor="end">70%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.84s" fill="freeze"/>
+        <rect x="952" y="268" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M952 276v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M1240 338v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="972" y="296" fill="#E6ECF3" font-size="11.5" letter-spacing="2">AUTOMATION</text>
+        <circle cx="1154" cy="292" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.63s" begin="2.24s" repeatCount="indefinite"/>
+        </circle>
+        <text x="1220" y="296" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="972" y="314" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="972" y="314" width="184" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;184" dur="0.7s" begin="1.94s" fill="freeze"/>
+        </rect>
+        <rect x="972" y="314" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="7.2s" begin="3.04s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="972;1130" dur="7.2s" begin="3.04s" repeatCount="indefinite"/>
+        </rect>
+        <text x="1220" y="334" fill="#4A5768" font-size="9" text-anchor="end">74%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.98s" fill="freeze"/>
+        <rect x="40" y="360" width="288" height="78" rx="8" fill="#0B0E14" fill-opacity="0.8"
+              stroke="#3A4757"/>
+        <path d="M40 368v-8h10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <path d="M328 430v8h-10" fill="none" stroke="#E8B54B" stroke-width="2"/>
+        <text x="60" y="388" fill="#E6ECF3" font-size="11.5" letter-spacing="2">GIT / GITHUB</text>
+        <circle cx="242" cy="384" r="3.4" fill="#5BE0F0">
+          <animate attributeName="opacity" values="0.2;1;0.2" dur="3.76s" begin="2.38s" repeatCount="indefinite"/>
+        </circle>
+        <text x="308" y="388" fill="#5BE0F0" font-size="9" letter-spacing="1.6" text-anchor="end">ONLINE</text>
+        <rect x="60" y="406" width="248" height="8" rx="4" fill="#161B24" stroke="#2A323F" stroke-width="0.8"/>
+        <rect x="60" y="406" width="208" height="8" rx="4" fill="url(#redGrad)">
+          <animate attributeName="width" values="0;208" dur="0.7s" begin="2.08s" fill="freeze"/>
+        </rect>
+        <rect x="60" y="406" width="26" height="8" rx="4" fill="#FFFFFF" opacity="0">
+          <animate attributeName="opacity" values="0;0.55;0" dur="7.4s" begin="3.18s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="60;242" dur="7.4s" begin="3.18s" repeatCount="indefinite"/>
+        </rect>
+        <text x="308" y="426" fill="#4A5768" font-size="9" text-anchor="end">84%</text>
+      </g>    <g stroke="#3A4757" stroke-width="1.3" fill="none" opacity="0.45" ><path d="M16 42V16H42M1238 16H1264V42M1264 432V458H1238M42 458H16V432"/></g>
+  </g>
+  <rect x="1" y="1" width="1278" height="472" rx="18" fill="none" stroke="#2A323F" stroke-width="2"/>
+</svg>

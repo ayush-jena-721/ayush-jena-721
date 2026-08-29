@@ -1,0 +1,42 @@
+name: sync HUD
+
+on:
+  schedule:
+    - cron: "17 4 * * *"     # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/**", ".github/workflows/hud.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: install builders
+        run: pip install pillow numpy scipy fonttools
+
+      - name: pull verified GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python tools/fetch_github.py
+
+      - name: rebuild SVGs
+        run: python tools/build_all.py
+
+      - name: commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data
+          git diff --staged --quiet || git commit -m "HUD: sync contribution + telemetry data"
+          git push

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 240" width="1280" height="240"
+     role="img" aria-label="Keep coding keep growing">
+  <defs>
+    <linearGradient id="hullGrad" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="55%" stop-color="#05070A"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161B24"/>
+      <stop offset="42%" stop-color="#2A323F"/>
+      <stop offset="52%" stop-color="#3A4757"/>
+      <stop offset="62%" stop-color="#2A323F"/>
+      <stop offset="100%" stop-color="#161B24"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8F1D18"/>
+      <stop offset="60%" stop-color="#E03C31"/>
+      <stop offset="100%" stop-color="#FF9F45"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8B54B"/>
+      <stop offset="50%" stop-color="#FFD98A"/>
+      <stop offset="100%" stop-color="#E8B54B"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="24%" stop-color="#5BE0F0" stop-opacity="0.75"/>
+      <stop offset="58%" stop-color="#5BE0F0" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fieldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5BE0F0" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#8C7BFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5BE0F0" stop-opacity="0"/>
+      <stop offset="46%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="54%" stop-color="#5BE0F0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5BE0F0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="blueprint" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#3A4757" stroke-width="1" opacity="0.22"/>
+      <path d="M12 0V48M24 0V48M36 0V48M0 12H48M0 24H48M0 36H48" fill="none"
+            stroke="#3A4757" stroke-width="0.5" opacity="0.09"/>
+    </pattern>
+    <filter id="bloom" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="bloomS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="bloomXS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+<clipPath id="frame"><rect width="1280" height="240" rx="18"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="240" fill="url(#hullGrad)"/>
+    <rect x="180" y="26" width="920" height="188" rx="12" fill="url(#metal)" fill-opacity="0.30"
+          stroke="#2A323F" stroke-width="2"/>
+    <circle cx="204" cy="50" r="5" fill="#161B24" stroke="#2A323F"/><circle cx="1076" cy="50" r="5" fill="#161B24" stroke="#2A323F"/><circle cx="204" cy="190" r="5" fill="#161B24" stroke="#2A323F"/><circle cx="1076" cy="190" r="5" fill="#161B24" stroke="#2A323F"/>
+    <rect x="180" y="26" width="920" height="188" rx="12" fill="none" stroke="#3A4757" stroke-dasharray="2 8" opacity="0.4"/>
+    
+      <text x="640.0" y="108" text-anchor="middle" font-family="'Rajdhani','Orbitron',system-ui,sans-serif" font-size="52"
+            letter-spacing="10" fill="none" stroke="#E03C31" stroke-width="2.4" opacity="0">
+        <animate attributeName="opacity" values="0;0.9;0.15;0.85;0.2;1;0.75;1" dur="1.9s" begin="0.6s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.82;1" dur="3.4s" begin="2.8000000000000003s" repeatCount="indefinite"/>KEEP CODING</text>
+      <text x="640.0" y="108" text-anchor="middle" font-family="'Rajdhani','Orbitron',system-ui,sans-serif" font-size="52"
+            letter-spacing="10" fill="#FFD98A" opacity="0" filter="url(#bloomS)">
+        <animate attributeName="opacity" values="0;0.5;0.1;0.55;0.15;0.75" dur="1.9s" begin="0.6s" fill="freeze"/>KEEP CODING</text>
+    
+      <text x="640.0" y="176" text-anchor="middle" font-family="'Rajdhani','Orbitron',system-ui,sans-serif" font-size="52"
+            letter-spacing="10" fill="none" stroke="#E03C31" stroke-width="2.4" opacity="0">
+        <animate attributeName="opacity" values="0;0.9;0.15;0.85;0.2;1;0.75;1" dur="1.9s" begin="1.5s" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0.82;1" dur="3.4s" begin="3.7s" repeatCount="indefinite"/>KEEP GROWING</text>
+      <text x="640.0" y="176" text-anchor="middle" font-family="'Rajdhani','Orbitron',system-ui,sans-serif" font-size="52"
+            letter-spacing="10" fill="#FFD98A" opacity="0" filter="url(#bloomS)">
+        <animate attributeName="opacity" values="0;0.5;0.1;0.55;0.15;0.75" dur="1.9s" begin="1.5s" fill="freeze"/>KEEP GROWING</text>
+    <circle cx="640.0" cy="216" r="0" fill="url(#coreGlow)">
+      <animate attributeName="r" values="0;14;10" dur="1s" begin="3.4s" fill="freeze"/>
+      <animate attributeName="r" values="10;14;10" dur="2.8s" begin="4.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="1" y="1" width="1278" height="238" rx="18" fill="none" stroke="#2A323F" stroke-width="2"/>
+</svg>
